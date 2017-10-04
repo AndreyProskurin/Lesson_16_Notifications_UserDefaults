@@ -13,6 +13,8 @@
 		329EBDD61F83EECC00AD322B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329EBDD51F83EECC00AD322B /* Assets.xcassets */; };
 		329EBDD91F83EECC00AD322B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329EBDD71F83EECC00AD322B /* LaunchScreen.storyboard */; };
 		329EBDDC1F83EECC00AD322B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 329EBDDB1F83EECC00AD322B /* main.m */; };
+		329EBDE41F84067A00AD322B /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 329EBDE31F84067A00AD322B /* HeaderView.m */; };
+		329EBDE61F84070A00AD322B /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329EBDE51F84070A00AD322B /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		329EBDD81F83EECC00AD322B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		329EBDDA1F83EECC00AD322B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		329EBDDB1F83EECC00AD322B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		329EBDE21F84067A00AD322B /* HeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		329EBDE31F84067A00AD322B /* HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		329EBDE51F84070A00AD322B /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				329EBDD71F83EECC00AD322B /* LaunchScreen.storyboard */,
 				329EBDDA1F83EECC00AD322B /* Info.plist */,
 				329EBDDB1F83EECC00AD322B /* main.m */,
+				329EBDE21F84067A00AD322B /* HeaderView.h */,
+				329EBDE31F84067A00AD322B /* HeaderView.m */,
+				329EBDE51F84070A00AD322B /* HeaderView.xib */,
 			);
 			path = Lesson_16;
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 				329EBDD91F83EECC00AD322B /* LaunchScreen.storyboard in Resources */,
 				329EBDD61F83EECC00AD322B /* Assets.xcassets in Resources */,
 				329EBDD41F83EECC00AD322B /* Main.storyboard in Resources */,
+				329EBDE61F84070A00AD322B /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +154,7 @@
 				329EBDD11F83EECC00AD322B /* ViewController.m in Sources */,
 				329EBDDC1F83EECC00AD322B /* main.m in Sources */,
 				329EBDCE1F83EECC00AD322B /* AppDelegate.m in Sources */,
+				329EBDE41F84067A00AD322B /* HeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
